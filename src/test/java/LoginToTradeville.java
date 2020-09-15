@@ -18,7 +18,7 @@ public class LoginToTradeville {
 
         WebElement password =driver.findElement(By.xpath("//*[@id=\"ctl00_phContent_ucComposeLogin_ucLoginStartrade_pnlLoginStartrade\"]/input[2]"));
         password.click();
-        password.sendKeys("Innistrad1");
+        password.sendKeys("");
 
         driver.findElement(By.xpath("//*[@id=\"ctl00_phContent_ucComposeLogin_ucLoginStartrade_btnLogin\"]")).click();
     }
